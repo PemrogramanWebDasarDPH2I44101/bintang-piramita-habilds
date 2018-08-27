@@ -14,7 +14,7 @@
 
  <body>
  <?php
- $angka = 3;
+ $angka = 5;
  for($i=0;$i<=$angka;$i++){  
 		for($j=$angka-$i;$j>=1;$j--){  
 		echo "* ";  
