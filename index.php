@@ -13,7 +13,15 @@
  </head>
 
  <body>
-
+ <?php
+ $angka = 3;
+ for($i=0;$i<=$angka;$i++){  
+		for($j=$angka-$i;$j>=1;$j--){  
+		echo "* ";  
+		}  
+	echo "<br>";  
+	}
+ ?>
  </body>
 
  </html>
